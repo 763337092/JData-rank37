@@ -11,15 +11,15 @@
 2.  A_info_dict.py，数据预处理
 3. A_fetch_feature.py，特征提取
 4.  A_model.py，模型训练
-5. A_valid_and_pred.py，验证与预测
+5. A_valid_and_pred.py，验证与预测<br><br>
 运行环境与工具：
 ---
 ubuntu16.04<br>
 python2.7、xgboost0.6<br>
-numpy、pandas、sklearn
+numpy、pandas、sklearn<br><br>
 数据清洗：
 ---
-筛选出商品子集P中所有商品的历史记录，删除其他商品的历史记录。
+筛选出商品子集P中所有商品的历史记录，删除其他商品的历史记录。<br><br>
 特征提取：
 ---
 1.**用户行为特征**：<br>
@@ -32,3 +32,7 @@ numpy、pandas、sklearn
 商品的属性1、属性2、属性3、品牌ID、评论数、有无差评、差评率<br><br>
 5.**用户-商品对的关联行为特征**:
 预测日期之前10天内出现的所有用户商品组合，在距离预测日期第1天、第2天、第3天、前3天、前5天、前7天、前10天、前14天、前21天、前28天、前40天、前50天的被浏览数、加入购物车次数、删除购物车次数、购买次数、关注次数、点击次数、总操作数。<br><br>
+
+
+
+> Written with [StackEdit](https://stackedit.io/).
