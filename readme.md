@@ -12,14 +12,17 @@
 3. A_fetch_feature.py，特征提取
 4.  A_model.py，模型训练
 5. A_valid_and_pred.py，验证与预测<br><br>
+
 运行环境与工具：
 ---
 ubuntu16.04<br>
 python2.7、xgboost0.6<br>
 numpy、pandas、sklearn<br><br>
+
 数据清洗：
 ---
 筛选出商品子集P中所有商品的历史记录，删除其他商品的历史记录。<br><br>
+
 特征提取：
 ---
 1.**用户行为特征**：<br>
